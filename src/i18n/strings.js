@@ -1,0 +1,188 @@
+export const strings = {
+  de: {
+    nav: {
+      menu: 'Speisekarte',
+      story: 'Über uns',
+      vibe: 'Der Vibe',
+      reviews: 'Bewertungen',
+      location: 'Standort',
+      langSwitch: 'EN',
+      openMenu: 'Menü öffnen',
+      closeMenu: 'Menü schließen',
+    },
+    hero: {
+      badgeHalal: '100% Halal-zertifiziert',
+      badgeFresh: 'Frisch täglich gesmasht',
+      headline: ['Gesmasht.', 'Halal.', 'Berlin.'],
+      description:
+        'Handgeformte Smashburger aus 100% halal-zertifiziertem Rindfleisch, in der Hermannstraße 168, Berlin-Neukölln. Frisch von der Platte auf den Teller.',
+      ctaMenu: 'Speisekarte ansehen',
+      scroll: 'Scrollen',
+    },
+    menu: {
+      eyebrow: 'Speisekarte',
+      title: 'Unsere Signature Creations',
+      description:
+        'Handgeformt, scharf angebraten und sofort serviert. 100% halal-zertifiziertes Rindfleisch, frisch von der Platte auf den Teller.',
+      fullMenuCta: 'Vollständige Speisekarte',
+      modalTitle: 'Speisekarte',
+      modalNote: 'Alle Preise inkl. MwSt.',
+      close: 'Speisekarte schließen',
+      mostPopular: (rank) => `#${rank} Beliebtesten`,
+      tagVegan: 'Vegan',
+      tagSpicy: 'Scharf',
+    },
+    story: {
+      eyebrow: 'Unsere Geschichte',
+      title: 'Gegründet aus Liebe zum perfekten Smashburger',
+      description:
+        'Burgees Smashburger entstand aus einer klaren Vision: den besten Smashburger Berlins zu bauen — ehrlich zubereitet, 100% halal-zertifiziert und ohne Abstriche bei der Qualität. In der Hermannstraße in Neukölln verbinden wir handwerkliche Sorgfalt mit dem direkten, unkomplizierten Charakter der Nachbarschaft.',
+      statLabel: 'Halal-zertifiziert',
+      pillars: [
+        { title: '100% Halal-zertifiziert', desc: 'Ausschließlich zertifiziertes Rindfleisch, konsequent und ohne Kompromisse.' },
+        { title: 'Frisch auf die Platte', desc: 'Jeder Patty wird bei Bestellung gesmasht — nicht vorbereitet, nicht aufgewärmt.' },
+        { title: 'Für jeden etwas dabei', desc: 'Von Double Smash bis Beyond Meat — auch vegetarische Gäste kommen auf ihre Kosten.' },
+      ],
+    },
+    vibe: {
+      eyebrow: 'Qualität & Service',
+      title: 'Der Vibe bei Burgees',
+      description:
+        'Das Wohl unserer Gäste steht bei uns an erster Stelle. Wir setzen auf hochwertige, frische Zutaten und eine konsequente 100% halal Ausrichtung, um gleichbleibende Qualität zu gewährleisten. Mit viel Sorgfalt und Liebe zum Detail bereiten wir jedes Angebot zu und gehen gerne auf individuelle Wünsche ein — für ein rundum überzeugendes Erlebnis.',
+      points: [
+        { title: 'Ehrliche Küche', desc: 'Keine Abkürzungen — jedes Gericht wird mit Sorgfalt frisch zubereitet.' },
+        { title: 'Nachbarschaftsgefühl', desc: 'Der direkte, warme Charakter von Neukölln — jeder Gast wird wie ein Stammgast behandelt.' },
+        { title: 'Individuell möglich', desc: 'Wünsche und Anpassungen sind bei uns jederzeit willkommen.' },
+      ],
+      galleryHint: 'Tippen zum Entstummen',
+      photoLabel: 'Unser Laden',
+      reelLabels: ['Willkommen bei Burgees', 'Frisch & direkt', 'Der Vibe live'],
+    },
+    reviews: {
+      eyebrow: 'Was unsere Gäste sagen',
+      title: 'Bewertet von echten Burger-Fans',
+      description: 'Ein paar Stimmen aus unserer Nachbarschaft — und wir freuen uns über jede weitere.',
+      googleCta: 'Auf Google bewerten',
+      list: [
+        { name: 'Lukas M.', rating: 5, text: 'Bester Smashburger in Neukölln, hands down. Der Double Smash ist der Wahnsinn und alles ist wirklich halal — man merkt die Sorgfalt.' },
+        { name: 'Ayşe K.', rating: 5, text: 'Endlich ein Laden, wo ich als Muslimin bedenkenlos einen richtig guten Burger essen kann. Der Crispy Chicken ist mein Favorit.' },
+        { name: 'Jonas R.', rating: 5, text: 'Schnell, freundlich, und der Patty wird wirklich frisch gesmasht vor deinen Augen. Genau das richtige nach einer langen Nacht.' },
+        { name: 'Fatima B.', rating: 4, text: 'Sehr leckere Burger, faire Preise. Die Pommes Chili Cheese sind ein Geheimtipp!' },
+        { name: 'Tobias W.', rating: 5, text: 'Bin extra aus Kreuzberg rübergefahren und es hat sich total gelohnt. Der Beyond Meat Burger überzeugt auch Fleischesser.' },
+        { name: 'Meltem S.', rating: 5, text: 'Qualität und Geschmack stimmen zu 100%. Komme regelmäßig vorbei — es lohnt sich jedes Mal.' },
+      ],
+    },
+    reserve: {
+      eyebrow: 'Ruf uns an',
+      title: 'Hunger auf einen echten Smashburger?',
+      description: 'Ruf uns einfach an oder komm vorbei — wir sind bereit für dich in der Hermannstraße 168.',
+    },
+    location: {
+      eyebrow: 'Standort',
+      title: 'Besuch uns in Neukölln',
+      addressLabel: 'Adresse',
+      routeCta: 'Route planen',
+      contactLabel: 'Kontakt',
+      hoursLabel: 'Öffnungszeiten',
+      days: ['Montag', 'Dienstag', 'Mittwoch', 'Donnerstag', 'Freitag', 'Samstag', 'Sonntag'],
+    },
+    footer: {
+      quickLinks: 'Navigation',
+      followUs: 'Folge uns',
+      rightsReserved: 'Alle Rechte vorbehalten.',
+    },
+  },
+  en: {
+    nav: {
+      menu: 'Menu',
+      story: 'About',
+      vibe: 'The Vibe',
+      reviews: 'Reviews',
+      location: 'Location',
+      langSwitch: 'DE',
+      openMenu: 'Open menu',
+      closeMenu: 'Close menu',
+    },
+    hero: {
+      badgeHalal: '100% Halal Certified',
+      badgeFresh: 'Freshly Smashed Daily',
+      headline: ['Smashed.', 'Halal.', 'Berlin.'],
+      description:
+        'Hand-formed smashburgers made with 100% halal-certified beef, on Hermannstraße 168 in Berlin-Neukölln. Straight from the flat-top to your plate.',
+      ctaMenu: 'View Menu',
+      scroll: 'Scroll',
+    },
+    menu: {
+      eyebrow: 'Menu',
+      title: 'Our Signature Creations',
+      description:
+        'Hand-formed, seared hard, served immediately. 100% halal-certified beef, straight from the flat-top to your plate.',
+      fullMenuCta: 'Full Menu',
+      modalTitle: 'Menu',
+      modalNote: 'All prices include VAT.',
+      close: 'Close menu',
+      mostPopular: (rank) => `#${rank} Most Popular`,
+      tagVegan: 'Vegan',
+      tagSpicy: 'Spicy',
+    },
+    story: {
+      eyebrow: 'Our Story',
+      title: 'Founded out of love for the perfect smashburger',
+      description:
+        "Burgees Smashburger started with a clear vision: build Berlin's best smashburger — honestly made, 100% halal-certified, with no shortcuts on quality. On Hermannstraße in Neukölln, we pair real craft with the direct, no-nonsense character of the neighborhood.",
+      statLabel: 'Halal Certified',
+      pillars: [
+        { title: '100% Halal Certified', desc: 'Exclusively certified beef, consistently and without compromise.' },
+        { title: 'Fresh Off the Flat-Top', desc: 'Every patty is smashed to order — never prepped ahead, never reheated.' },
+        { title: 'Something for Everyone', desc: 'From Double Smash to Beyond Meat — vegetarian guests get the same care.' },
+      ],
+    },
+    vibe: {
+      eyebrow: 'Quality & Service',
+      title: 'The Vibe at Burgees',
+      description:
+        "Our guests come first. We rely on high-quality, fresh ingredients and a consistent 100% halal standard to guarantee quality you can count on. Every order is prepared with care and attention to detail, and we're always happy to accommodate special requests — for an experience that delivers every time.",
+      points: [
+        { title: 'Honest Cooking', desc: 'No shortcuts — every dish is prepared fresh and with care.' },
+        { title: 'Neighborhood Feel', desc: "The direct, warm character of Neukölln — every guest treated like a regular." },
+        { title: 'Made Your Way', desc: 'Requests and customizations are always welcome.' },
+      ],
+      galleryHint: 'Tap to unmute',
+      photoLabel: 'Inside Burgees',
+      reelLabels: ['Welcome to Burgees', 'Fresh & direct', 'The vibe, live'],
+    },
+    reviews: {
+      eyebrow: 'What our guests say',
+      title: 'Rated by real burger fans',
+      description: "A few voices from our neighborhood — and we'd love to hear from you too.",
+      googleCta: 'Rate us on Google',
+      list: [
+        { name: 'Lukas M.', rating: 5, text: 'Best smashburger in Neukölln, hands down. The Double Smash is insane and everything is genuinely halal — you can tell the care that goes in.' },
+        { name: 'Ayşe K.', rating: 5, text: 'Finally a place where I can eat a really good burger without worrying, as a Muslim. The Crispy Chicken is my favorite.' },
+        { name: 'Jonas R.', rating: 5, text: 'Fast, friendly, and the patty is genuinely smashed fresh right in front of you. Exactly what you need after a long night.' },
+        { name: 'Fatima B.', rating: 4, text: 'Really tasty burgers, fair prices. The Chili Cheese fries are an underrated pick!' },
+        { name: 'Tobias W.', rating: 5, text: 'Drove all the way from Kreuzberg and it was worth it. The Beyond Meat burger wins over meat-eaters too.' },
+        { name: 'Meltem S.', rating: 5, text: 'Quality and taste are spot on every time. I stop by regularly — worth it every time.' },
+      ],
+    },
+    reserve: {
+      eyebrow: 'Give us a call',
+      title: 'Craving a real smashburger?',
+      description: 'Give us a call or just stop by — we\'re ready for you at Hermannstraße 168.',
+    },
+    location: {
+      eyebrow: 'Location',
+      title: 'Visit us in Neukölln',
+      addressLabel: 'Address',
+      routeCta: 'Get Directions',
+      contactLabel: 'Contact',
+      hoursLabel: 'Opening Hours',
+      days: ['Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday', 'Saturday', 'Sunday'],
+    },
+    footer: {
+      quickLinks: 'Navigation',
+      followUs: 'Follow Us',
+      rightsReserved: 'All rights reserved.',
+    },
+  },
+};

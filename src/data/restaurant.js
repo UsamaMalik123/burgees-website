@@ -1,0 +1,36 @@
+export const restaurant = {
+  name: 'Burgees Smashburger',
+  tagline: '100% Halal Smashburger in Berlin-Neukölln',
+  phone: '+49 163 6490000',
+  phoneHref: 'tel:+491636490000',
+  address: {
+    street: 'Hermannstraße 168',
+    zip: '12051',
+    city: 'Berlin',
+    mapsHref: 'https://www.google.com/maps/place/?q=place_id:ChIJb60rAYFPqEcRH3gYTvsYkp4',
+  },
+  googleReviewUrl: 'https://search.google.com/local/writereview?placeid=ChIJb60rAYFPqEcRH3gYTvsYkp4',
+  hours: [
+    { time: '11:00–23:00' },
+    { time: '11:00–23:00' },
+    { time: '11:00–23:00' },
+    { time: '11:00–23:00' },
+    { time: '11:00–00:00' },
+    { time: '11:00–00:00' },
+    { time: '12:00–23:00' },
+  ],
+  socials: {
+    instagram: 'https://www.instagram.com/burgees_smashburger/',
+    tiktok: 'https://www.tiktok.com/@burgees.smashburger',
+  },
+  hashtags: [
+    '#BURGEESSMASHBURGER',
+    '#BURGERBERLIN',
+    '#BERLINFOOD',
+    '#NEUKÖLLNEATS',
+    '#HALALBERLIN',
+    '#HALALFOOD',
+    '#BURGERLOVERS',
+    '#BERLINEATS',
+  ],
+};
