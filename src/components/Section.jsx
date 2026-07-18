@@ -21,7 +21,7 @@ export function Reveal({ children, delay = 0, y = 18, className = '' }) {
     <motion.div
       initial={{ opacity: 0, y, filter: 'blur(6px)' }}
       whileInView={{ opacity: 1, y: 0, filter: 'blur(0px)' }}
-      viewport={{ once: true, margin: '-80px' }}
+      viewport={{ once: true, amount: 0, margin: '0px 0px -60px 0px' }}
       transition={{ duration: 0.8, delay, ease: easeOut }}
       className={className}
     >
@@ -35,7 +35,7 @@ export function RevealGroup({ children, className = '', stagger = 0.08 }) {
     <motion.div
       initial="hidden"
       whileInView="show"
-      viewport={{ once: true, margin: '-80px' }}
+      viewport={{ once: true, amount: 0, margin: '0px 0px -60px 0px' }}
       variants={{
         hidden: {},
         show: { transition: { staggerChildren: stagger } },
@@ -72,7 +72,7 @@ export function RevealPhoto({ children, delay = 0, className = '' }) {
     <motion.div
       initial={{ opacity: 0, scale: 1.08 }}
       whileInView={{ opacity: 1, scale: 1 }}
-      viewport={{ once: true, margin: '-80px' }}
+      viewport={{ once: true, amount: 0, margin: '0px 0px -60px 0px' }}
       transition={{ ...spring, delay }}
       className={className}
     >

@@ -23,7 +23,7 @@ export default function Navbar({ scrolled, mobileOpen, onToggleMobile, onCloseMo
   return (
     <header className={`fixed top-0 inset-x-0 z-50 transition-all duration-300 ${headerBg}`}>
       <div className="mx-auto max-w-content px-4 sm:px-6 md:px-10 flex items-center justify-between">
-        <a href="#top" className="flex items-center gap-3 shrink-0" aria-label="Burgees Smashburger">
+        <a href="#top" className="flex items-center gap-3 shrink-0 min-h-11 -my-2 py-2" aria-label="Burgees Smashburger">
           <img src={logo} alt="Burgees Smashburger Logo" className="h-9 sm:h-10 md:h-11 w-auto rounded-full" />
           <span className="hidden sm:block font-display text-lg tracking-wide text-ink-50">
             Burgees<span className="text-pink"> Smashburger</span>
@@ -56,7 +56,7 @@ export default function Navbar({ scrolled, mobileOpen, onToggleMobile, onCloseMo
           <button
             type="button"
             onClick={onToggleMobile}
-            className="md:hidden text-ink-50 p-2 -mr-1 cursor-pointer"
+            className="md:hidden text-ink-50 p-2.5 -mr-2.5 cursor-pointer"
             aria-label={mobileOpen ? t.nav.closeMenu : t.nav.openMenu}
             aria-expanded={mobileOpen}
           >

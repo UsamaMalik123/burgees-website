@@ -52,7 +52,7 @@ export default function MenuModal({ open, onClose, categories }) {
           <button
             type="button"
             onClick={onClose}
-            className="text-ink-200 hover:text-pink p-2 -mr-2 cursor-pointer"
+            className="text-ink-200 hover:text-pink p-2.5 -mr-2.5 cursor-pointer"
             aria-label={t.menu.close}
           >
             <CloseIcon />
@@ -67,7 +67,7 @@ export default function MenuModal({ open, onClose, categories }) {
               onClick={() => setActiveId(c.id)}
               whileTap={reduceMotion ? undefined : { scale: 0.94 }}
               transition={{ type: 'spring', stiffness: 400, damping: 25 }}
-              className={`shrink-0 px-4 py-2 rounded-full text-xs tracking-[0.1em] uppercase transition-colors duration-200 cursor-pointer border ${
+              className={`shrink-0 min-h-11 px-4 rounded-full text-xs tracking-[0.1em] uppercase transition-colors duration-200 cursor-pointer border ${
                 c.id === activeId
                   ? 'bg-pink text-ink-900 border-pink'
                   : 'text-ink-200 border-ink-50/15 hover:border-pink/60 hover:text-pink'
